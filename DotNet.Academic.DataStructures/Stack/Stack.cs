@@ -4,28 +4,31 @@ using System.Linq;
 
 namespace DotNet.Academic.DataStructures.Stack
 {
-    public class Stack
+    public class Stack<T>
     {
-        public IList<string> Items { get; private set; }
+        public IList<T> Items { get; private set; }
 
         public Stack()
         {
-            this.Items = new List<string>();
+            this.Items = new List<T>();
         }
 
 
-        public void Push(string value)
+        public void Push(T value)
         {
             Items.Add(value);
         }
 
-        public void Pop()
+        public T Pop()
         {
             var last = this.Size() - 1;
+            var item = this.Items[last];
             Items.RemoveAt(last);
+
+            return item;
         }
 
-        public string Peek(string value)
+        public T Peek(T value)
         {
             var last = this.Size() - 1;
             return this.Items[last];
@@ -38,7 +41,7 @@ namespace DotNet.Academic.DataStructures.Stack
 
         public void Clear()
         {
-            this.Items = new List<string>();
+            this.Items = new List<T>();
         }
 
         public int Size()

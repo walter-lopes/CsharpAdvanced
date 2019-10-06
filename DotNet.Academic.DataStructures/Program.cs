@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DotNet.Academic.DataStructures.Stack;
+using System;
 
 namespace DotNet.Academic.DataStructures
 {
@@ -6,7 +7,7 @@ namespace DotNet.Academic.DataStructures
     {
         static void Main(string[] args)
         {
-            Stack.Stack stack = new Stack.Stack();
+            Stack<string> stack = new Stack<string>();
 
             stack.Push("1");
             stack.Push("2");
@@ -23,6 +24,13 @@ namespace DotNet.Academic.DataStructures
 
             Console.WriteLine(stack.IsEmpty());
             Console.WriteLine(stack.Size());
+
+
+            ProblemWithStack problem = new ProblemWithStack();
+
+            var binary = problem.DivideBy2(10);
+
+            Console.WriteLine(binary);
 
 
             Console.ReadLine();
