@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskParallelLibrary", "TaskParallelLibrary\TaskParallelLibrary.csproj", "{CBD8C48A-3A41-4A91-93DD-EB616762D610}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Patterns", "Design Patterns", "{AF044A86-3E01-4963-8761-32D310BD5B4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{635CDE27-699D-4198-B92E-9FB8B6647936}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Job Interviews", "Job Interviews", "{BE2FCBA3-454F-4F85-BFBA-24E8132044A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Performance", "Performance", "{51914A7B-098F-4B03-85C1-F80F6C7ED4D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Architecture", "Architecture", "{833AEAEC-33FD-4A57-94AB-F8C556BBF7EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Structures", "Data Structures", "{4A8ECEB0-63E9-4E68-9219-B4D8A5A01B0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.Academic.DataStructures", "DotNet.Academic.DataStructures\DotNet.Academic.DataStructures.csproj", "{209F2919-DE26-4278-A1A8-0AF40A42D78D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBD8C48A-3A41-4A91-93DD-EB616762D610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD8C48A-3A41-4A91-93DD-EB616762D610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD8C48A-3A41-4A91-93DD-EB616762D610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD8C48A-3A41-4A91-93DD-EB616762D610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209F2919-DE26-4278-A1A8-0AF40A42D78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209F2919-DE26-4278-A1A8-0AF40A42D78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209F2919-DE26-4278-A1A8-0AF40A42D78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209F2919-DE26-4278-A1A8-0AF40A42D78D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBD8C48A-3A41-4A91-93DD-EB616762D610} = {51914A7B-098F-4B03-85C1-F80F6C7ED4D9}
+		{209F2919-DE26-4278-A1A8-0AF40A42D78D} = {4A8ECEB0-63E9-4E68-9219-B4D8A5A01B0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F098B5E-B2C7-4034-98A5-0D0F427DA2D2}
+	EndGlobalSection
+EndGlobal
