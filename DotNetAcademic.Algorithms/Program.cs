@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DotNetAcademic.Algorithms
 {
@@ -6,17 +7,29 @@ namespace DotNetAcademic.Algorithms
     {
         static void Main(string[] args)
         {
-            int[] arr = { 12, 11, 13, 5, 6, 7 };
+            Stopwatch sw = new Stopwatch();
 
+            int[] arr = new int[] { 3, 2, 1, 5, 4, 3123, 1231, 21312312, 988900, 43455 };
+
+            //int j = 0;
+            //for (int i = 100000; i > 0 ; i--)
+            //{
+            //    arr[j] = i;
+            //    j++;
+            //}
+
+            Quick quick = new Quick();
             Merge merge = new Merge();
+            sw.Start();
+            quick.Sort(arr, 0, arr.Length - 1);
 
-            merge.Sort(arr, 0, arr.Length - 1);
-
-            foreach (var item in arr)
+            for (int i = 0; i < arr.Length; i++)
             {
-                Console.WriteLine(item);
-                Console.ReadKey();
+                Console.WriteLine(arr[i]);
             }
+            sw.Stop();
+            Console.WriteLine("Elapsed={0}", sw.Elapsed);
+            Console.ReadKey();
         }
     }
 }

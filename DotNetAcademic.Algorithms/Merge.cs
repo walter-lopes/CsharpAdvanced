@@ -18,6 +18,7 @@ namespace DotNetAcademic.Algorithms
 
         public void MergeSort(int[] array, int l, int m, int r)
         {
+
             int n1 = m - l + 1;
             int n2 = r - m;
 
