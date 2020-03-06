@@ -20,6 +20,27 @@ namespace DotNet.Academic.Delegates
 
             var total = cart.CalculateTotal(NotifyDiscount, ApplyDiscounts);
 
+            //short hand
+            var total2 = cart.CalculateTotal((total) =>
+            {
+                if (total < 200M)
+                {
+                    Console.WriteLine("No Discount");
+                }
+                else
+                {
+                    Console.WriteLine("Discount applied");
+                }
+            }, (total) =>
+            {
+                if (total > 200M)
+                {
+                    return total *= 0.5M;
+                }
+
+                return total;
+            });
+
             Console.WriteLine($"Total - {total:C2}");
         }
 
