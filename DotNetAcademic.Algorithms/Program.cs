@@ -20,8 +20,9 @@ namespace DotNetAcademic.Algorithms
 
             Quick quick = new Quick();
             Merge merge = new Merge();
+            HeapSort heap = new HeapSort();
             sw.Start();
-            quick.Sort(arr, 0, arr.Length - 1);
+            heap.sort(arr);
 
             for (int i = 0; i < arr.Length; i++)
             {
