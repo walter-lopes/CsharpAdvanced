@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29409.12
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskParallelLibrary", "TaskParallelLibrary\TaskParallelLibrary.csproj", "{CBD8C48A-3A41-4A91-93DD-EB616762D610}"
 EndProject
@@ -25,16 +25,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Language", "Language", "{58
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegates", "Delegates", "{66CD09ED-FBC5-4A8B-8DB7-8DCC3216DE44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.Academic.Delegates", "DotNet.Academic.Delegates\DotNet.Academic.Delegates.csproj", "{CA1A799F-1E8F-402F-8266-A4EA79A3F0F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.Academic.Delegates", "DotNet.Academic.Delegates\DotNet.Academic.Delegates.csproj", "{CA1A799F-1E8F-402F-8266-A4EA79A3F0F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.Academic.Delegates.Library", "DotNet.Academic.Delegates.Library\DotNet.Academic.Delegates.Library.csproj", "{456C1116-03F4-4E74-849A-F5DE2ABBD9C6}"
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetAcademic.Algorithms", "DotNetAcademic.Algorithms\DotNetAcademic.Algorithms.csproj", "{C7A4025C-C664-476C-9E5D-F98516A010EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.Academic.Delegates.Library", "DotNet.Academic.Delegates.Library\DotNet.Academic.Delegates.Library.csproj", "{456C1116-03F4-4E74-849A-F5DE2ABBD9C6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{8B197613-43A3-4BA0-A395-8E6C78565779}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{ECF83FF3-4903-4E90-960A-47E5E1C3801B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Principles", "SOLID.Principles\SOLID.Principles.csproj", "{1A45EF94-9972-4530-8DCB-C7843A3F613B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID.Principles", "SOLID.Principles\SOLID.Principles.csproj", "{1A45EF94-9972-4530-8DCB-C7843A3F613B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,14 +53,6 @@ Global
 		{C7A4025C-C664-476C-9E5D-F98516A010EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7A4025C-C664-476C-9E5D-F98516A010EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7A4025C-C664-476C-9E5D-F98516A010EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B197613-43A3-4BA0-A395-8E6C78565779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B197613-43A3-4BA0-A395-8E6C78565779}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B197613-43A3-4BA0-A395-8E6C78565779}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B197613-43A3-4BA0-A395-8E6C78565779}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A45EF94-9972-4530-8DCB-C7843A3F613B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A45EF94-9972-4530-8DCB-C7843A3F613B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A45EF94-9972-4530-8DCB-C7843A3F613B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A45EF94-9972-4530-8DCB-C7843A3F613B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA1A799F-1E8F-402F-8266-A4EA79A3F0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA1A799F-1E8F-402F-8266-A4EA79A3F0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA1A799F-1E8F-402F-8266-A4EA79A3F0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -70,6 +61,14 @@ Global
 		{456C1116-03F4-4E74-849A-F5DE2ABBD9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{456C1116-03F4-4E74-849A-F5DE2ABBD9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{456C1116-03F4-4E74-849A-F5DE2ABBD9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B197613-43A3-4BA0-A395-8E6C78565779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B197613-43A3-4BA0-A395-8E6C78565779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B197613-43A3-4BA0-A395-8E6C78565779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B197613-43A3-4BA0-A395-8E6C78565779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A45EF94-9972-4530-8DCB-C7843A3F613B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A45EF94-9972-4530-8DCB-C7843A3F613B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A45EF94-9972-4530-8DCB-C7843A3F613B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A45EF94-9972-4530-8DCB-C7843A3F613B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +80,8 @@ Global
 		{66CD09ED-FBC5-4A8B-8DB7-8DCC3216DE44} = {58C9FF8C-B569-43FB-BC69-9B3F5ABC361E}
 		{CA1A799F-1E8F-402F-8266-A4EA79A3F0F9} = {66CD09ED-FBC5-4A8B-8DB7-8DCC3216DE44}
 		{456C1116-03F4-4E74-849A-F5DE2ABBD9C6} = {66CD09ED-FBC5-4A8B-8DB7-8DCC3216DE44}
+		{8B197613-43A3-4BA0-A395-8E6C78565779} = {AF044A86-3E01-4963-8761-32D310BD5B4E}
+		{1A45EF94-9972-4530-8DCB-C7843A3F613B} = {ECF83FF3-4903-4E90-960A-47E5E1C3801B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F098B5E-B2C7-4034-98A5-0D0F427DA2D2}
